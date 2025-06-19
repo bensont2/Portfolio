@@ -131,6 +131,3 @@ function displayError(message){
 
 
 
-
-
-
