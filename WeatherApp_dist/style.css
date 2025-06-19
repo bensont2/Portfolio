@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #83a4d4, #b6fbff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+form {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  flex: 1;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  max-width: 300px;
+  background: linear-gradient(135deg, #6dd5fa, #2980b9);
+  border-radius: 15px;
+  padding: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.cityDisplay {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+
+.tempDisplay {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.humidityDisplay {
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+
+.descDisplay {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-transform: capitalize;
+  opacity: 0.9;
+}
+
+.weatherEmoji {
+  font-size: 4rem;
+  margin-top: 10px;
+  filter: drop-shadow(0 0 3px rgba(255,255,255,0.7));
+}
+.errorDisplay{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(105, 103, 103)
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
